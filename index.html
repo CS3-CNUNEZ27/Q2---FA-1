@@ -1,0 +1,91 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>SODIUM</title>
+		<meta name="author" content="Nuñez">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<br><a href="#target" class="link1">Link 1</a>
+		<a href="#target2" class="link2">Link 2</a><br>
+		<div id="target">Div Number 1</div>
+		<div id="target2">Div Number 2</div>
+		
+	</body>
+	<style>
+		a.link1:link{
+			color:white;
+			background-color:#77a6ed;
+			border: 2px solid blue;
+			padding: 5px 30px 5px 30px;
+		}
+		a.link1:visited{
+			color:purple;
+			background-color:#d277fc;
+			border:2px solid purple;
+		}
+		a.link1:hover{
+			color:yellow;
+			background-color: #f7798e;
+			border:2px solid red;
+		}
+		a.link1:active{
+			color:green;
+			background-color: #8efab9;
+			border:2px solid green;
+		}
+		
+		a.link2:link{
+			color:white;
+			background-color:#f0ac54;
+			border: 2px solid red;
+			padding: 5px 30px 5px 30px;
+		}
+		a.link2:visited{
+			color:red;
+			background-color:#ff8a99;
+			border:2px solid red;
+		}
+		a.link2:hover{
+			color:#a69608;
+			background-color: #f6ffa3;
+			border:2px solid yellow;
+		}
+		a.link2:active{
+			color:#ffdeee;
+			background-color: #ffa3d1;
+			border:2px solid #f768b0;
+		}
+		#target{
+			border: 2px solid blue;
+			background-color:#77a6ed;
+			color:white;
+			padding: 25px 0px 25px;
+			width: 200px;
+			text-align: center;
+			margin-top:25px;
+		}
+		#target2{
+			border: 2px solid yellow;
+			background-color:#f6ffa3;
+			color:#a69608;
+			padding: 25px 0px 25px;
+			width: 200px;
+			text-align: center;
+			margin-top:10px;
+		}
+		#target:target{
+			border-color: indigo;
+			background-color:#866bc9;
+			color:#d4bbfc;
+		}
+		#target2:target{
+			border: 10px dotted green;
+			background-color:#8efab9;
+			color:green;
+		}
+		a{
+			display:inline;
+		}
+	</style>
+</html>
